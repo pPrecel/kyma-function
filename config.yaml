@@ -3,7 +3,7 @@ namespace: default
 runtime: python39
 source:
     sourceType: git
-    url: https://gitlab.com/pPrecel/kyma-function
+    url: https://github.com/pPrecel/kyma-function
     repository: function-great-python39
     reference: python
     baseDir: /code
