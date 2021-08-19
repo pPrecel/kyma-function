@@ -5,5 +5,5 @@ source:
     sourceType: git
     url: https://gitlab.com/pPrecel/kyma-function
     repository: function-great-karolina0
-    reference: main-tag-nodejs14
+    reference: main
     baseDir: /code

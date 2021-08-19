@@ -2,7 +2,7 @@
 
 The `config.yaml` info on this commit:
 
-Reference - main-tag-nodejs14
+Reference - main
 Runtime - nodejs14
 
 ## Getting started
