@@ -1,9 +1,9 @@
-name: function-great-karolina0
+name: function-great-python39
 namespace: default
-runtime: nodejs14
+runtime: python39
 source:
     sourceType: git
     url: https://gitlab.com/pPrecel/kyma-function
-    repository: function-great-karolina0
-    reference: main-tag-nodejs14
+    repository: function-great-python39
+    reference: python
     baseDir: /code

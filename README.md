@@ -2,8 +2,8 @@
 
 The `config.yaml` info on this commit:
 
-Reference - main-tag-nodejs14
-Runtime - nodejs14
+Reference - python
+Runtime - python39
 
 ## Getting started
 
