@@ -1,0 +1,9 @@
+name: function-great-karolina0
+namespace: default
+runtime: nodejs14
+source:
+    sourceType: git
+    url: https://gitlab.com/pPrecel/kyma-function
+    repository: function-great-karolina0
+    reference: main-tag-nodejs14
+    baseDir: /code
