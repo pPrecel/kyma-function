@@ -3,7 +3,7 @@ namespace: default
 runtime: nodejs14
 source:
     sourceType: git
-    url: https://gitlab.com/pPrecel/kyma-function
+    url: https://bitbucket.com/pPrecel/kyma-function
     repository: function-great-karolina0
     reference: main
     baseDir: /code
