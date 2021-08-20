@@ -1,0 +1,11 @@
+name: private-azure-python
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: https://kyma-wookiee@dev.azure.com/kyma-wookiee/kyma-function/_git/kyma-function
+    repository: private-azure
+    reference: python
+    baseDir: /code
+    credentialsType: "basic"
+    credentialsSecretName: "repos-basic-azure"

@@ -1,9 +1,11 @@
-name: config-gitlab-main
+name: private-gitlab-main
 namespace: kyma-functions
 runtime: nodejs14
 source:
     sourceType: git
     url: https://gitlab.com/pPrecel/kyma-function
-    repository: config-gitlab-main
+    repository: private-gitlab
     reference: main
     baseDir: /code
+    credentialsType: "basic"
+    credentialsSecretName: "repos-basic-gitlab"

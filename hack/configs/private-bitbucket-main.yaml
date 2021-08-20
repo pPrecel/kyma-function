@@ -1,0 +1,11 @@
+name: private-bitbucket-main
+namespace: kyma-functions
+runtime: nodejs14
+source:
+    sourceType: git
+    url: https://bitbucket.com/pPrecel/kyma-function
+    repository: private-bitbucket
+    reference: main
+    baseDir: /code
+    credentialsType: "basic"
+    credentialsSecretName: "repos-basic-bitbucket"

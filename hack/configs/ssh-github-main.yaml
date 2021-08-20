@@ -1,0 +1,11 @@
+name: ssh-github-main
+namespace: kyma-functions
+runtime: nodejs14
+source:
+    sourceType: git
+    url: git@github.com:pPrecel/kyma-function.git
+    repository: ssh-github
+    reference: main
+    baseDir: /code
+    credentialsType: "key"
+    credentialsSecretName: "repos-ssh-key"

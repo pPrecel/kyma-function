@@ -1,0 +1,11 @@
+name: ssh-gitlab-main
+namespace: kyma-functions
+runtime: nodejs14
+source:
+    sourceType: git
+    url: git@gitlab.com:pPrecel/kyma-function.git
+    repository: ssh-gitlab
+    reference: main
+    baseDir: /code
+    credentialsType: "key"
+    credentialsSecretName: "repos-ssh-key"

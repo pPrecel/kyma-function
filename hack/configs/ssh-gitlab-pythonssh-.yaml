@@ -1,0 +1,11 @@
+name: ssh-gitlab-python
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: git@gitlab.com:pPrecel/kyma-function.git
+    repository: ssh-gitlab
+    reference: python
+    baseDir: /code
+    credentialsType: "key"
+    credentialsSecretName: "repos-ssh-key"

@@ -1,0 +1,9 @@
+name: public-gitlab-python
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: https://gitlab.com/pPrecel/kyma-function
+    repository: public-gitlab
+    reference: python
+    baseDir: /code

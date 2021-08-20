@@ -1,9 +1,11 @@
-name: config-github-main
+name: private-github-main
 namespace: kyma-functions
 runtime: nodejs14
 source:
     sourceType: git
     url: https://github.com/pPrecel/kyma-function
-    repository: config-github-main
+    repository: private-github
     reference: main
     baseDir: /code
+    credentialsType: "basic"
+    credentialsSecretName: "repos-basic-github"
