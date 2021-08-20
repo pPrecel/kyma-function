@@ -12,3 +12,9 @@ To apply project:
     ```bash
     kyma apply function
     ```
+
+To apply all functions from all repositories and branches.
+
+    ```bash
+    bash hack/deployall.sh
+    ```

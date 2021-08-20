@@ -1,0 +1,9 @@
+name: config-bitbucket-main
+namespace: kyma-functions
+runtime: nodejs14
+source:
+    sourceType: git
+    url: https://bitbucket.com/pPrecel/kyma-function
+    repository: config-bitbucket-main
+    reference: main
+    baseDir: /code

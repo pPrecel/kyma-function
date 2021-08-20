@@ -1,0 +1,9 @@
+name: config-bitbucket-python
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: https://bitbucket.com/pPrecel/kyma-function
+    repository: config-bitbucket-python
+    reference: python
+    baseDir: /code

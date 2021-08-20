@@ -1,0 +1,9 @@
+name: config-github-python
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: https://github.com/pPrecel/kyma-function
+    repository: config-github-python
+    reference: python
+    baseDir: /code
