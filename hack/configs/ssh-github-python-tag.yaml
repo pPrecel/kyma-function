@@ -1,0 +1,11 @@
+name: ssh-github-python-tag
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: git@github.com:pPrecel/kyma-function.git
+    repository: ssh-github
+    reference: python-tag
+    baseDir: /code
+    credentialsType: "key"
+    credentialsSecretName: "repos-ssh-key"

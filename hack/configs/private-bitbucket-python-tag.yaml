@@ -1,0 +1,11 @@
+name: private-bitbucket-python-tag
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: https://bitbucket.com/pPrecel/kyma-function
+    repository: private-bitbucket
+    reference: python-tag
+    baseDir: /code
+    credentialsType: "basic"
+    credentialsSecretName: "repos-basic-bitbucket"

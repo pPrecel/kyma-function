@@ -4,6 +4,7 @@ SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 # create namespace
 kubectl create namespace "kyma-functions"
+echo ""
 
 # apply secrets
 FILES="${SCRIPTPATH}/private/*"
