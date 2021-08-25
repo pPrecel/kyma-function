@@ -1,0 +1,11 @@
+name: ssh-azure-python-commit
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: git@ssh.dev.azure.com:v3/kyma-wookiee/kyma-function/kyma-function
+    repository: ssh-azure
+    reference: 6dac23dd3b697970cf351101ff5c3e9733c2bdfc
+    baseDir: /code
+    credentialsType: "key"
+    credentialsSecretName: "repos-ssh-key"

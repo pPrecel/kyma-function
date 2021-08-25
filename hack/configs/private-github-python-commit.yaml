@@ -1,0 +1,11 @@
+name: private-github-python-commit
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: https://github.com/pPrecel/kyma-function
+    repository: private-github
+    reference: 17348afd90c45754c15079527bc775d603291f13
+    baseDir: /code
+    credentialsType: "basic"
+    credentialsSecretName: "repos-basic-github"

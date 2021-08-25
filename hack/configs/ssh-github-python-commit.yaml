@@ -1,0 +1,11 @@
+name: ssh-github-python-commit
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: git@github.com:pPrecel/kyma-function.git
+    repository: ssh-github
+    reference: 17348afd90c45754c15079527bc775d603291f13
+    baseDir: /code
+    credentialsType: "key"
+    credentialsSecretName: "repos-ssh-key"

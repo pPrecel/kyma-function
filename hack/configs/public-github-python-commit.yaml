@@ -1,0 +1,9 @@
+name: public-github-python-commit
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: https://github.com/pPrecel/kyma-function
+    repository: public-github
+    reference: 17348afd90c45754c15079527bc775d603291f13
+    baseDir: /code

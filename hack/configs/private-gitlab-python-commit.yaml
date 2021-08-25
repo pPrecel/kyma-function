@@ -1,0 +1,11 @@
+name: private-gitlab-python-commit
+namespace: kyma-functions
+runtime: python39
+source:
+    sourceType: git
+    url: https://gitlab.com/pPrecel/kyma-function
+    repository: private-gitlab
+    reference: 242711228a14cdac68bbe725c2eb1551e20256aa
+    baseDir: /code
+    credentialsType: "basic"
+    credentialsSecretName: "repos-basic-gitlab"
