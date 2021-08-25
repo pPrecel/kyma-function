@@ -3,7 +3,7 @@ namespace: kyma-functions
 runtime: python39
 source:
     sourceType: git
-    url: https://bitbucket.com/pPrecel/kyma-function
+    url: https://pPrecel@bitbucket.org/pPrecel/kyma-function.git
     repository: private-bitbucket
     reference: python
     baseDir: /code
