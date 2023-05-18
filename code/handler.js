@@ -1,5 +1,5 @@
 module.exports = {
     main: function (event, context) {
-        return 'Hello Serverless'
+        return 'Hello Serverless 2'
     }
 }
